@@ -6,11 +6,21 @@
 * Laptop charger
 
 ## Recommended Installation
-We will be using Python 2.7 version for the exercise. Users should install the Anaconda distribution from Continuum - [https://www.continuum.io/downloads](https://www.continuum.io/downloads).
+We will be using Python 3.8 version for the exercise. Users should install the Anaconda distribution from Continuum - [https://www.continuum.io/downloads](https://www.continuum.io/downloads).
 
 Please note that installing Anaconda is the **recommended** option for the workshop.
 
 ## Post Anaconda Installation
+
+### Switch to the Virtual Environment
+
+    $ source bin/activate
+
+### Install all Requirements
+
+    $ pip install -r requirements.txt
+
+### Install single requirements
 
 **`keras`**
 
