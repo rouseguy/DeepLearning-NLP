@@ -35,10 +35,10 @@ def load_data_and_labels():
     
     # Load data from files
     #positive_examples = list(open("../data/rt-polarity.pos",encoding='utf-8', errors='ignore').readlines())
-    positive_examples = list(open("../data/rt-polarity.pos").readlines())
+    positive_examples = list(open("../data/rt-polarity.pos",encoding='latin-1').readlines())
     positive_examples = [s.strip() for s in positive_examples]
     #negative_examples = list(open("../data/rt-polarity.neg",encoding='utf-8', errors='ignore').readlines())
-    negative_examples = list(open("../data/rt-polarity.neg").readlines())
+    negative_examples = list(open("../data/rt-polarity.neg",encoding='latin-1').readlines())
     negative_examples = [s.strip() for s in negative_examples]
     # Split by words
     x_text = positive_examples + negative_examples
