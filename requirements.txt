@@ -1,0 +1,10 @@
+gensim==3.8.3
+Keras==2.3.1
+matplotlib==3.2.1
+numpy==1.18.4
+pandas==1.0.3
+scikit-learn==0.22.2.post1
+tensorboard==2.2.1
+tensorboard-plugin-wit==1.6.0.post3
+tensorflow==2.2.0
+tensorflow-estimator==2.2.0
